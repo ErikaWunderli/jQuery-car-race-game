@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>jQuery Car Race</title>
+    <link rel="stylesheet" type="text/css" href="carrace.css">
+</head>
+    
+<body id="race">
+  <h1>jQuery Car Race</h1>
+  <div id="buttons">
+  <input type="button" class="center-btn" value="Race!" id="go">
+  <input type="button" class="center-btn" 
+value="Reset" id="reset">
+  </div>
+  
+  <div id="racetrack"> 
+    <a href="https://openclipart.org/detail/285567/car-15-green"><img src="https://openclipart.org/download/285567/Car15Green.svg" alt="Green car" id="car1" class="car"></a> 
+    <a href="https://openclipart.org/detail/285548/car-14-red"><img src="https://openclipart.org/download/285548/Car14Red.svg" alt="Red car" id="car2" class="car"></a> 
+  </div>
+  
+  <div id="raceInfoContainer" class="clearfix">
+    <h2>Results</h2>
+    <div id="raceInfo1" class="raceInfo">Car 1<span></span></div>
+    <div id="raceInfo2" class="raceInfo">Car 2<span></span></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+    <script src="carrace.js"></script>
+    </body>
+</html>
